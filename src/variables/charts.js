@@ -107,15 +107,15 @@ export const barChartOptionsDailyTraffic = {
 
 export const barChartDataConsumption = [
   {
-    name: "PRODUCT A",
+    name: "Applied",
     data: [400, 370, 330, 390, 320, 350, 360, 320, 380],
   },
   {
-    name: "PRODUCT B",
+    name: "Invite Sent",
     data: [400, 370, 330, 390, 320, 350, 360, 320, 380],
   },
   {
-    name: "PRODUCT C",
+    name: "Cleared L1",
     data: [400, 370, 330, 390, 320, 350, 360, 320, 380],
   },
 ];
@@ -253,11 +253,11 @@ export const pieChartData = [63, 25, 12];
 
 export const lineChartDataTotalSpent = [
   {
-    name: "Revenue",
+    name: "Applied",
     data: [50, 64, 48, 66, 49, 68],
   },
   {
-    name: "Profit",
+    name: "Selected",
     data: [30, 40, 24, 46, 20, 46],
   },
 ];

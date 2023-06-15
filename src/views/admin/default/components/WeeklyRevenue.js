@@ -41,7 +41,7 @@ export default function WeeklyRevenue(props) {
           fontSize='xl'
           fontWeight='700'
           lineHeight='100%'>
-          Weekly Revenue
+          Daily Interview Count
         </Text>
         <Button
           align='center'
@@ -55,7 +55,7 @@ export default function WeeklyRevenue(props) {
           lineHeight='100%'
           borderRadius='10px'
           {...rest}>
-          <Icon as={MdBarChart} color={iconColor} w='24px' h='24px' />
+          <Icon as={MdBarChart} color={iconColor} w='24px' h='24px' onClick={() => window.open("https:/www.bit.ly/sampleinterepo")}/>
         </Button>
       </Flex>
 

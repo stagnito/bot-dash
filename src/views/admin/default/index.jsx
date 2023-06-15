@@ -79,8 +79,8 @@ export default function UserReports() {
               }
             />
           }
-          name='Earnings'
-          value='$350.4'
+          name='Interviews - In Progress'
+          value='250'
         />
         <MiniStatistics
           startContent={
@@ -89,18 +89,18 @@ export default function UserReports() {
               h='56px'
               bg={boxBg}
               icon={
-                <Icon w='32px' h='32px' as={MdAttachMoney} color={brandColor} />
+                <Icon w='32px' h='32px' as={MdBarChart} color={brandColor} />
               }
             />
           }
-          name='Spend this month'
-          value='$642.39'
+          name='Interviews - Scheduled'
+          value='567'
         />
-        <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
+        <MiniStatistics growth='+13%' name='Cleared L1' value='101' />
         <MiniStatistics
           endContent={
             <Flex me='-16px' mt='10px'>
-              <FormLabel htmlFor='balance'>
+              <FormLabel htmlFor='Region Wise'>
                 <Avatar src={Usa} />
               </FormLabel>
               <Select
@@ -109,14 +109,14 @@ export default function UserReports() {
                 mt='5px'
                 me='0px'
                 defaultValue='usd'>
-                <option value='usd'>USD</option>
-                <option value='eur'>EUR</option>
-                <option value='gba'>GBA</option>
+                <option value='usd'>NA</option>
+                <option value='eur'>EMEA</option>
+                <option value='gba'>APAC</option>
               </Select>
             </Flex>
           }
-          name='Your balance'
-          value='$1,000'
+          name='Region Wise Count'
+          value='122'
         />
         <MiniStatistics
           startContent={
@@ -127,8 +127,8 @@ export default function UserReports() {
               icon={<Icon w='28px' h='28px' as={MdAddTask} color='white' />}
             />
           }
-          name='New Tasks'
-          value='154'
+          name='Calender Invite sent'
+          value='321'
         />
         <MiniStatistics
           startContent={
@@ -141,7 +141,7 @@ export default function UserReports() {
               }
             />
           }
-          name='Total Projects'
+          name='Total Resume Received'
           value='2935'
         />
       </SimpleGrid>
